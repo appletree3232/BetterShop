@@ -18,7 +18,7 @@ This mod aims to improve the shop experience by ensuring guaranteed item types a
 - 增加你在冒险途中遇到各种特色商人（如钥匙商人、多卖商人、诅咒商人等）的几率。
 - An extra NPC will spawn on every floor, increasing your chances of finding special merchants.
 
-### 3. 枪弹地狱特殊商人 (Bullet Hell Merchant)
+### 3. 枪弹地狱商人 (Bullet Hell Merchant)
 
 - **在第六层（枪弹地狱）必定会生成商人。**
 - 由于第六层默认没有商店，这个额外的商人能让你在最终决战前有机会补给或挥霍多余的弹壳。
