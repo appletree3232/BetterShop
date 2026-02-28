@@ -20,3 +20,9 @@ Debug/
 thunderstore/build/
 *.zip
 Directory.Build.props
+
+## Local only
+BetterShop.sln
+build.ps1
+Directory.Build.props.template
+thunderstore/
