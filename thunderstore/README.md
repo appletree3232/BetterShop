@@ -14,13 +14,13 @@ This mod aims to improve the shop experience by ensuring guaranteed item types a
 
 ### 2. 额外 NPC 生成 (Extra NPCs)
 
-- **除了第六层（枪弹地狱）和第五层（锻造室）外，每一层都会额外生成一个 NPC。**
+- **每一层都会额外生成一个 NPC。**
 - 增加你在冒险途中遇到各种特色商人（如钥匙商人、多卖商人、诅咒商人等）的几率。
-- An extra NPC will spawn on every floor (except the Forge and Bullet Hell), increasing your chances of finding special merchants.
+- An extra NPC will spawn on every floor, increasing your chances of finding special merchants.
 
 ### 3. 枪弹地狱特殊商人 (Bullet Hell Merchant)
 
-- **在第六层（枪弹地狱）必定会生成一个特殊的“地狱商人”。**
+- **在第六层（枪弹地狱）必定会生成商人。**
 - 由于第六层默认没有商店，这个额外的商人能让你在最终决战前有机会补给或挥霍多余的弹壳。
 - A special merchant will always spawn in Bullet Hell (Floor 6), allowing you to spend your hard-earned casings before the final battles.
 
