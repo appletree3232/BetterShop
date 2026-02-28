@@ -1,0 +1,24 @@
+<Project>
+  <!-- 
+    ========================================================================
+    本地路径配置说明
+    ========================================================================
+    
+    1. 复制此文件，并将其重命名为 "Directory.Build.props"。
+    2. 将下方标签里面的路径，修改为你本机实际的《挺进地牢》游戏路径以及 BepInEx 的路径。
+    3. C# 编译器将会自动读取 "Directory.Build.props" 中的本地路径，覆盖 csproj 中的配置。
+    4. 由于 ".gitignore" 已经忽略了 "Directory.Build.props"，所以你的本地路径不会被传上 GitHub。
+  -->
+
+  <PropertyGroup>
+    <!-- 游戏根目录的绝对路径 -->
+    <GameDir>D:\EnterTheGungeon</GameDir>
+
+    <!-- BepInEx 的根目录绝对路径 (如果你使用 Thunderstore, 通常在 AppData 目录下) -->
+    <BepInExDir>C:\Users\jfy\AppData\Roaming\Thunderstore Mod Manager\DataFolder\ETG\profiles\Default\BepInEx</BepInExDir>
+
+    <!-- 游戏托管(Managed) DLL 文件夹路径 -->
+    <ManagedDir>$(GameDir)\EtG_Data\Managed</ManagedDir>
+  </PropertyGroup>
+
+</Project>

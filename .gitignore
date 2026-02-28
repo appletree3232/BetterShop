@@ -1,0 +1,22 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.dll
+*.pdb
+*.exe
+
+## Visual Studio
+.vs/
+*.sln.docstates
+
+## Build output
+Release/
+Debug/
+
+## Thunderstore build
+thunderstore/build/
+*.zip
+Directory.Build.props
