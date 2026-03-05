@@ -26,3 +26,4 @@ BetterShop.sln
 build.ps1
 Directory.Build.props.template
 thunderstore/
+inspect/
