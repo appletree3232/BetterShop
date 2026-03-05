@@ -22,7 +22,7 @@ namespace BetterShop
         // ── 配置项 ──
         internal static ConfigEntry<int> MinGuns;
         internal static ConfigEntry<int> MinItems;
-        internal static ConfigEntry<bool> ExtraNpcEnabled;
+        internal static ConfigEntry<int> ExtraNpcCount;
         internal static ConfigEntry<bool> BulletHellShopEnabled;
 
         private void Awake()
@@ -33,7 +33,7 @@ namespace BetterShop
             // 绑定配置
             MinGuns = Config.Bind("商店保底", "MinGuns", 1, "商店中至少包含的枪械数量");
             MinItems = Config.Bind("商店保底", "MinItems", 1, "商店中至少包含的道具数量");
-            ExtraNpcEnabled = Config.Bind("额外NPC", "Enabled", true, "是否在每层额外生成一个 NPC");
+            ExtraNpcCount = Config.Bind("额外NPC", "Count", 1, new ConfigDescription("每层额外生成的 NPC 数量（0=禁用，1-3）", new AcceptableValueRange<int>(0, 3)));
             BulletHellShopEnabled = Config.Bind("枪弹地狱", "ShopEnabled", true, "是否在枪弹地狱（第六层）生成商人");
 
             // 应用所有 Harmony 补丁
